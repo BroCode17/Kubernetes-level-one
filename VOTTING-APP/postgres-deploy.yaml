@@ -8,7 +8,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      name: postgres-deploy
+      name: postgres-pod
       app: demo-voting-app
   template:
     metadata:
